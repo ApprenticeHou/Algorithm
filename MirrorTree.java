@@ -1,5 +1,7 @@
-package ��ָoffer;
-
+package ½£Ö¸offer;
+/**
+*判断一棵树是否为一棵镜像树，即为对称的
+*/
 
 import java.util.LinkedList;
 
