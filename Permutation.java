@@ -1,7 +1,5 @@
 package 剑指offer;
 
-import java.util.Arrays;
-
 /**
  * 输入一段字符串，将打印出其组成字符的所有排序方式,排列的实现
  * @author HOU
@@ -19,7 +17,7 @@ public class Permutation {
 	 if(start==s.length){
 		 for(char c:s)
 			 System.out.print(c);
-		 System.out.println();
+		 System.out.println();//打印
 		 return;
 	 }
 	 //遍历所用的元素，并将以使用过的元素替换到最前面start的位置
